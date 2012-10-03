@@ -115,7 +115,7 @@
     <h2><%= name %></h2>
     <% $.each(data, function(section, infos) { %>
       <% if (section !== 'structuredName') { %>
-        <div class='section'>
+        <div class='section section-<%= section.replace(/ /, '-').toLowerCase() %>'>
           <label><%= section %></label>
 
           <ul>
@@ -123,7 +123,9 @@
               <% var values = (value.constructor === Array) ? value : [value]; %>
 
               <% $.each(values, function(i, val) { %>
-                <% showValue(val, key) %>
+                <li>
+                  <%= formatValue(val, key, section) %>
+                </li>
               <% }); %>
 
             <% }); %>
@@ -133,13 +135,6 @@
       <% } %>
     <% }); %>
   </article>
-
-  <% /* Partial */ %>
-  <% function showValue(val, type) { %>
-    <li class='value <%= type.toLowerCase() %>'>
-    <%= val %>
-    </li>
-  <% } %>
 
 </script>
 

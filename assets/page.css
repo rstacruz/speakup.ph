@@ -332,7 +332,31 @@ article.senator ul {
 }
 article.senator li {
   margin: 0;
-  padding: 3px 0;
-  border-bottom: solid 1px #eee;
+  padding: 1px 0;
+}
+article.senator a,
+article.senator a:visited {
+  color: #383;
+  text-decoration: none;
+}
+article.senator .pre:before {
+  color: #ccc;
+  margin-right: 10px;
+  font-size: 0.9em;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+article.senator .twitter:before {
+  content: "T:";
+}
+article.senator .email:before {
+  content: "E:";
+}
+article.senator .facebook:before {
+  content: "F:";
+}
+article.senator .site:before {
+  content: "W:";
 }
 
