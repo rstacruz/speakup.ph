@@ -5,6 +5,8 @@ h1(headline). We cannot be silenced.
 
 The Philippines is a democracy, and no law can get in the way of power of the citizens. Here's how you can speak your mind and influence the decisions of our legislators.
 
+p(action). "Get heard":#senators
+
 </div>
 </section>
 
@@ -64,8 +66,6 @@ h2(headline). _2_ Phone in your concerns
 
 <div class='info'>
 All senators have phone lines open to the public! Use them to speak up your concerns and ask for their support.
-
-p(action). "See phone directory":#senators
 </div>
 
 
