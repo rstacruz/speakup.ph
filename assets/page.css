@@ -1,6 +1,7 @@
 body {
   background: #f6f6f4;
   color: #505050;
+  min-width: 900px;
 }
 body,
 input,
