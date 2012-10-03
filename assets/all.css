@@ -128,8 +128,8 @@ table {
 }
 
 body {
-  background: #f0f0f0;
-  color: #444;
+  background: #f6f6f4;
+  color: #505050;
 }
 body,
 input,
@@ -146,7 +146,7 @@ body {
   height: 100%;
 }
 .page:nth-child(odd) {
-  background: #ddd;
+  background: #d3d3d0;
 }
 .page {
   -webkit-box-sizing: border-box;
@@ -160,7 +160,7 @@ body {
   margin: 0 auto;
 }
 .page .headline {
-  font-size: 40pt;
+  font-size: 32pt;
   text-align: center;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
@@ -180,8 +180,36 @@ body {
 .page blockquote > p {
   margin: 0;
 }
+.page.email {
+  padding-bottom: 0;
+  overflow: hidden;
+}
+.page.email .info {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+.page.email .letter {
+  width: 500px;
+  margin: 40px auto 0 auto;
+  padding: 40px 80px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.20), 10px 5px 0 -4px #fff, 10px 5px 10px -4px rgba(0,0,0,0.10);
+  box-shadow: 0 0 10px rgba(0,0,0,0.20), 10px 5px 0 -4px #fff, 10px 5px 10px -4px rgba(0,0,0,0.10);
+  font-family: Shanti, sans-serif;
+  color: #707080;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.10);
+}
+.page.email .letter strong {
+  font-weight: bold;
+  font-family: Droid Sans;
+}
 .page.phone {
   text-align: left;
+}
+.page.phone h2.headline {
+  padding-bottom: 40px;
 }
 .page.phone blockquote {
   padding: 20px 30px 20px 20px;

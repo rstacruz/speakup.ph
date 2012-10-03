@@ -18,12 +18,27 @@ h2(headline). _0_ Understand the issue
 </div>
 </section>
 
-<section class='page send'>
+<section class='page email'>
 <div>
 
 h2(headline). _1_ Send an email
 
-Send an email
+<div class='info'>
+Pour your thoughts out into a letter. Be as emotional as you need to be--but don't make any personal attacks.
+</div>
+
+<div class='letter'>
+*Dear Senator,*
+
+Great day! I'm writing to you about the recent issues about the _online libel_ provision of of the cybercrime law.
+
+Senator, I fear for the future of our country. I think the _online libel_ provision can jeopardize our democracy. I want to live in a country where the citizens are free to praise the politicians, or point out their flaws, without fear of their words being taken against them.
+
+Please, I urge you to support abolishing this provision from the law, for the sake of citizens like me and for our nation.
+
+Yours truly,
+_Rico Sta. Cruz_
+</div>
 
 </div>
 </section>

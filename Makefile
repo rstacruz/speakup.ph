@@ -19,9 +19,8 @@ assets/all.css: \
 	assets/page.css
 	$(COMBINE)
 
-index.html: index.start.html content.html
+index.html: src/index.start.html content.html
 	cat $^ > $@
-	rm content.html
 
 # ----------------------------------------------------------------------------
 

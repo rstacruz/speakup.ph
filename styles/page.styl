@@ -3,8 +3,8 @@
 // ----------------------------------------------------------------------------
 
 body
-  background: #f0f0f0
-  color: #444
+  background: #f6f6f4
+  color: #505050
 
 body, input, textarea, td, th
   font-family: Droid Sans, sans-serif
@@ -18,7 +18,7 @@ html, body
 // ----------------------------------------------------------------------------
 
 .page:nth-child(odd)
-  background: #ddd
+  background: #d3d3d0
 
 .page
   box-sizing: border-box
@@ -30,7 +30,7 @@ html, body
     margin: 0 auto
 
   .headline
-    font-size: 40pt
+    font-size: 32pt
     text-align: center
     font-family: Montserrat, sans-serif
     font-weight: 400
@@ -48,8 +48,44 @@ html, body
 
 // ----------------------------------------------------------------------------
 
+.page.email
+  &
+    // Flush the letter to the bottom
+    padding-bottom: 0
+
+    overflow: hidden
+
+  .info
+    text-align: center
+    width: 600px
+    margin: 0 auto
+    font-size: 1.1em
+
+  // The letter itself
+  .letter
+    width: 500px
+    margin: 40px auto 0 auto
+
+    padding: 40px 80px
+    background: white
+    box-shadow: 0 0 10px rgba(black, 0.2), 10px 5px 0 -4px white, 10px 5px 10px -4px rgba(black, 0.1)
+
+    font-family: Shanti, sans-serif
+
+    color: #707080
+    text-shadow: 0 1px 0 rgba(white, 0.1)
+
+  .letter strong
+    font-weight: bold
+    font-family: Droid Sans
+
+// ----------------------------------------------------------------------------
+
 .page.phone
   text-align: left
+
+  h2.headline
+    padding-bottom: 40px
 
   blockquote
     padding: 20px 30px 20px 20px
