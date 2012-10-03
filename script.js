@@ -13,6 +13,9 @@
     } else if (m = val.match(/twitter\.com\/(.*)$/)) {
       // Twitter
       return "<a href='"+val+"' class='pre twitter'>@"+m[1]+"</a>";
+    } else if (m = val.match(/youtube\.com\/(.*)$/)) {
+      // Youtube
+      return "<a href='"+val+"' class='pre youtube'>@"+m[1]+"</a>";
     } else if (m = val.match(/@[a-z\.]+$/)) {
       // Email
       return "<a href='mailto:"+val+"' class='pre email'>"+val+"</a>";

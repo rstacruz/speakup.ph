@@ -359,13 +359,19 @@ article.senator
 
   li
     margin: 0
-    padding: 1px 0
 
   a, a:visited
     color: #383
     text-decoration: none
+    display: block
+    padding: 1px
+    border-radius: 1px
+
+  a:hover
+    background: #f0f0f0
 
   .pre:before
+    content: ''
     color: #ccc
     margin-right: 10px
     font-size: .9em
@@ -373,14 +379,20 @@ article.senator
     height: 16px
     display: inline-block
 
+    position: relative
+    top: 2px
+
   .twitter:before
-    content: 'T:'
+    background: url(twitter.png)
 
   .email:before
-    content: 'E:'
+    background: url(email.png)
 
   .facebook:before
-    content: 'F:'
+    background: url(facebook.png)
 
   .site:before
-    content: 'W:'
+    background: url(link.png)
+
+  .youtube:before
+    background: url(youtube.png)
