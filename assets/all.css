@@ -148,6 +148,7 @@ body {
 .main-nav .fb {
   padding: 20px;
   position: fixed;
+  top: 0;
   right: 0;
   float: right;
 }
@@ -230,6 +231,7 @@ body {
 }
 .page.title {
   background: #404040;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.20), 0 1px 0 rgba(0,0,0,0.10);
   color: #aaa;
   border-bottom: 0;
   padding: 200px 0;
@@ -270,6 +272,7 @@ body {
 .page.understand {
   background: #202020;
   color: #aaa;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.20);
 }
 .page.understand .headline {
   font-size: 20pt;
@@ -295,8 +298,8 @@ body {
   display: block;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  font-size: 1.2em;
+  margin-bottom: 5px;
+  font-size: 1.4em;
   color: #c42;
 }
 .page.understand li > a:first-child:hover {
