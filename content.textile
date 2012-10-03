@@ -22,11 +22,15 @@ h2(headline). _0_ Understand the issue
  * "The Cybercrime Bill":ra10175-docs This is the contents of the cybercrime bill (reformatted by "bafox of reddit":bafox). This is also available from the gov.ph site "here":ra10175-original.
  * "Google News":gn compiles the list of cybercrime-related news articles as they happen.
  * "Internetfreedom.ph":ifph has a list of senators who have voiced their intentions to amend the law, and those who haven't yet.
+ * "PIFA.ph":pifa The Philippine Internet Freedom Alliance organizes efforts related to stopping the cyber martial law.
+ * "Reddit":reddit Reddit had a discussion on the cybercrime law, and includes a detailed lay-person analysis of its contents.
 
 [ra10175-docs]https://docs.google.com/document/pub?id=1b_LlLSY9u-HsGd0eqijq0fSx_THIcbSBucOSxFmCdow
 [ra10175-original]http://www.gov.ph/2012/09/12/republic-act-no-10175/
 [bafox]http://www.reddit.com/r/technology/comments/10slkp/the_philippines_my_country_has_just_passed_a_law/c6gegmk
 [gn]https://www.google.com/search?hl=en&gl=ph&tbm=nws&q=cybercrime&oq=cybercrime
+[pifa]http://pifa.ph
+[reddit]http://www.reddit.com/r/technology/comments/10slkp/the_philippines_my_country_has_just_passed_a_law/c6gdi9p
 
 
 

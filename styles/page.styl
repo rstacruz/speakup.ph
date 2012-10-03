@@ -4,6 +4,8 @@ serif-font = Georgia, serif
 default-font = Palatino, serif
 headline-font = Montserrat, sans-serif
 voice-font = Shanti, sans-serif
+oswald-font = Oswald, sans-serif
+bright-orange = #c42
 
 // ----------------------------------------------------------------------------
 
@@ -58,7 +60,7 @@ html, body
 
 .action a
   color: white
-  background: #c42
+  background: bright-orange
   text-decoration: none
   padding: 5px 30px
   display: inline-block
@@ -161,14 +163,18 @@ html, body
 
   li > a:first-child
     font-weight: bold
-    color: #eee
     display: block
 
-    font-family: serif-font
-    padding-bottom: 10px
+    font-family: oswald-font
+    text-transform: uppercase
     margin-bottom: 10px
 
-    font-size: 1.1em
+    font-size: 1.2em
+
+    color: bright-orange
+
+    &:hover
+      color: bright-orange * 1.4
 
   ul
     margin-top: 40px

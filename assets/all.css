@@ -286,12 +286,15 @@ body {
 }
 .page.understand li > a:first-child {
   font-weight: bold;
-  color: #eee;
   display: block;
-  font-family: Georgia, serif;
-  padding-bottom: 10px;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
   margin-bottom: 10px;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  color: #c42;
+}
+.page.understand li > a:first-child:hover {
+  color: #f55229;
 }
 .page.understand ul {
   margin-top: 40px;
