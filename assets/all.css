@@ -448,17 +448,19 @@ body {
   overflow: hidden;
 }
 article.senator {
-  border: solid 2px #fcfcfc;
-  background: #fff;
-  overflow: hidden;
-  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.20);
-  box-shadow: 0 0 5px rgba(0,0,0,0.20);
   float: left;
   width: 45%;
   margin: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+article.senator .card {
+  border: solid 2px #fcfcfc;
+  background: #fff;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.20);
+  box-shadow: 0 0 5px rgba(0,0,0,0.20);
 }
 article.senator label,
 article.senator ul {
@@ -470,7 +472,7 @@ article.senator h2 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-  color: #a0a0b0;
+  color: #707080;
 }
 article.senator h2,
 article.senator .section {
@@ -501,7 +503,9 @@ article.senator .section > label {
 article.senator ul {
   margin: 0;
   padding: 0;
-  font-size: 0.8em;
+  font-size: 0.85em;
+  font-family: Shanti, sans-serif;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.60);
 }
 article.senator li {
   margin: 0;
@@ -509,7 +513,7 @@ article.senator li {
 }
 article.senator a,
 article.senator a:visited {
-  color: #4bd;
+  color: #3da8c7;
   text-decoration: none;
   display: block;
   padding: 1px;
@@ -517,7 +521,7 @@ article.senator a:visited {
   border-radius: 1px;
 }
 article.senator a:hover {
-  background: #f8f8f8;
+  color: #30839b;
 }
 article.senator .pre:before {
   content: "";
@@ -529,13 +533,13 @@ article.senator .pre:before {
   display: inline-block;
   margin-left: -24px;
   position: relative;
-  top: 2px;
+  top: 1px;
 }
 article.senator small {
   color: #999;
   font-size: 0.8em;
   background: #eee;
-  padding: 0 3px;
+  padding: 1px 5px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   -webkit-box-shadow: 1px 1px #e3e3e3;

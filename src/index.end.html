@@ -6,27 +6,29 @@
   <article class='senator'>
 
     <h2><%= name %></h2>
-    <% $.each(data, function(section, infos) { %>
-      <% if (section !== 'structuredName') { %>
-        <div class='section section-<%= section.replace(/ /, '-').toLowerCase() %>'>
-          <label><%= section %></label>
+    <div class='card'>
+      <% $.each(data, function(section, infos) { %>
+        <% if (section !== 'structuredName') { %>
+          <div class='section section-<%= section.replace(/ /, '-').toLowerCase() %>'>
+            <label><%= section %></label>
 
-          <ul>
-            <% $.each(infos, function(key, value) { %>
-              <% var values = (value.constructor === Array) ? value : [value]; %>
+            <ul>
+              <% $.each(infos, function(key, value) { %>
+                <% var values = (value.constructor === Array) ? value : [value]; %>
 
-              <% $.each(values, function(i, val) { %>
-                <li>
-                  <%= formatValue(val, key, section) %>
-                </li>
+                <% $.each(values, function(i, val) { %>
+                  <li>
+                    <%= formatValue(val, key, section) %>
+                  </li>
+                <% }); %>
+
               <% }); %>
+            </ul>
 
-            <% }); %>
-          </ul>
-
-        </div>
-      <% } %>
-    <% }); %>
+          </div>
+        <% } %>
+      <% }); %>
+    </div>
   </article>
 
 </script>
