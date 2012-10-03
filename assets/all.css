@@ -185,7 +185,7 @@ body {
 }
 .action a {
   color: #fff;
-  background: #333;
+  background: #c42;
   text-decoration: none;
   padding: 5px 30px;
   display: inline-block;
@@ -194,6 +194,22 @@ body {
   font-size: 12pt;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.30);
+}
+.action a:hover {
+  background-color: #e04b25;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e04b25), color-stop(1, #b83d1f));
+  background: -webkit-linear-gradient(top, #e04b25 0%, #b83d1f 100%);
+  background: -moz-linear-gradient(top, #e04b25 0%, #b83d1f 100%);
+  background: -o-linear-gradient(top, #e04b25 0%, #b83d1f 100%);
+  background: -ms-linear-gradient(top, #e04b25 0%, #b83d1f 100%);
+  background: linear-gradient(top, #e04b25 0%, #b83d1f 100%);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.20), inset 0 -1px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.20), inset 0 -1px 0 rgba(0,0,0,0.10);
+}
+.action a:active {
+  background: #222;
 }
 .page.title {
   background: #404040;
@@ -292,6 +308,11 @@ body {
 .page.email .letter strong {
   font-weight: bold;
   font-family: Palatino, serif;
+  font-size: 1.2em;
+}
+.page.email .letter .action {
+  margin-top: 60px;
+  text-align: center;
 }
 .page.phone {
   text-align: left;
@@ -351,9 +372,14 @@ body {
 }
 .page.phone .sub.follow-up {
   text-align: center;
+  font-size: 1.1em;
 }
 .page.phone .sub.follow-up h3 {
-  margin-bottom: -10px;
+  font-size: 1.4em;
+  margin-bottom: -15px;
+}
+.page.phone .sub.follow-up .action {
+  margin-top: 30px;
 }
 .page.write {
   background: #e8e8e5;

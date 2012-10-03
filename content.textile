@@ -51,6 +51,8 @@ Please, I urge you to support abolishing this provision from the law, for the sa
 
 Yours truly,
 _Rico Sta. Cruz_
+
+p(action). "Send your own message":#senators
 </div>
 
 </div>
@@ -62,7 +64,10 @@ h2(headline). _2_ Phone in your concerns
 
 <div class='info'>
 All senators have phone lines open to the public! Use them to speak up your concerns and ask for their support.
+
+p(action). "See phone directory":#senators
 </div>
+
 
 <section class='sub convo'>
 h3. Introduce yourself.
@@ -100,6 +105,8 @@ Ask for the support of the senator to support your cause. Present your arguments
 h3. Be sure to follow up!
 
 If you call, send an email a few days later as well just to be sure that your call isn't forgotten.
+
+p(action). "See phone directory":#senators
 </section>
 
 </div>
