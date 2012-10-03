@@ -350,17 +350,18 @@ html, body
 // ----------------------------------------------------------------------------
 
 .page.senators
-  text-align: left // lol
+  padding: 20px 0
 
 .senators .list
   overflow: hidden
 
 article.senator
+  border: solid 2px #fcfcfc
   background: white
   overflow: hidden
   box-shadow: 0 0 5px rgba(black, 0.2)
   float: left
-  width: 44%
+  width: 45%
   margin: 20px
 
   box-sizing: border-box
@@ -386,13 +387,18 @@ article.senator
     border-top: dotted 1px #e7e7e7
     overflow: hidden
 
+  .section:nth-child(odd)
+    background: #fafafa
+
+  // Labels
   .section > label
     width: 80px
     float: right
-    margin-right: -30px
+    margin-right: -40px
     text-align: right
 
     font-family: voice-font
+    letter-spacing: -1px
     font-weight: bold
     font-size: 0.9em
     line-height: 1.4
@@ -402,7 +408,7 @@ article.senator
   ul
     margin: 0
     padding: 0
-    font-size: 0.9em
+    font-size: 0.8em
 
   li
     margin: 0

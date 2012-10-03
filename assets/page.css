@@ -313,18 +313,19 @@ body {
   border: solid 10px #fff;
 }
 .page.senators {
-  text-align: left;
+  padding: 20px 0;
 }
 .senators .list {
   overflow: hidden;
 }
 article.senator {
+  border: solid 2px #fcfcfc;
   background: #fff;
   overflow: hidden;
   -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.20);
   box-shadow: 0 0 5px rgba(0,0,0,0.20);
   float: left;
-  width: 44%;
+  width: 45%;
   margin: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -353,12 +354,16 @@ article.senator .section {
   border-top: dotted 1px #e7e7e7;
   overflow: hidden;
 }
+article.senator .section:nth-child(odd) {
+  background: #fafafa;
+}
 article.senator .section > label {
   width: 80px;
   float: right;
-  margin-right: -30px;
+  margin-right: -40px;
   text-align: right;
   font-family: Shanti, sans-serif;
+  letter-spacing: -1px;
   font-weight: bold;
   font-size: 0.9em;
   line-height: 1.4;
@@ -367,7 +372,7 @@ article.senator .section > label {
 article.senator ul {
   margin: 0;
   padding: 0;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 article.senator li {
   margin: 0;
