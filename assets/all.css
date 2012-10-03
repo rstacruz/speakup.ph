@@ -151,7 +151,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  float: right;
 }
 .page {
   -webkit-box-sizing: border-box;
@@ -206,7 +205,8 @@ body {
   text-shadow: 0 1px 0 rgba(0,0,0,0.30);
   line-height: 1.5;
 }
-.action a:hover {
+.action a:hover,
+.title .action a {
   background-color: #e04b25;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e04b25), color-stop(1, #b83d1f));
   background: -webkit-linear-gradient(top, #e04b25 0%, #b83d1f 100%);
@@ -268,7 +268,7 @@ body {
 }
 .page.title p.action a {
   font-size: 1.4em;
-  padding: 5px 50px;
+  padding: 8px 50px;
 }
 .page.understand {
   background: #202020;
