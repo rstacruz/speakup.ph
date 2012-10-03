@@ -510,6 +510,7 @@ article.senator ul {
 article.senator li {
   margin: 0;
   padding-left: 24px;
+  min-height: 24px;
 }
 article.senator a,
 article.senator a:visited {
@@ -533,7 +534,7 @@ article.senator .pre:before {
   display: inline-block;
   margin-left: -24px;
   position: relative;
-  top: 1px;
+  top: 3px;
 }
 article.senator small {
   color: #999;
