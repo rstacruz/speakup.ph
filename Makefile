@@ -19,7 +19,10 @@ assets/all.css: \
 	assets/page.css
 	$(COMBINE)
 
-index.html: src/index.start.html content.html
+index.html: \
+	src/index.start.html \
+	content.html \
+	src/index.end.html
 	cat $^ > $@
 
 # ----------------------------------------------------------------------------
@@ -33,6 +36,7 @@ assets/%.css: styles/%.styl
 	stylus -u nib < $< > $@
 	@chmod a-w $@
 
+# Textile compiler via Ruby RedCloth
 %.html: %.textile
 	@rm -f $@
 	ruby -rRedCloth -e "puts RedCloth.new(STDIN.read).to_html" < $< > $@
