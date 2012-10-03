@@ -289,6 +289,10 @@ body {
   margin-left: 50px;
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.20);
   box-shadow: 0 0 10px rgba(0,0,0,0.20);
+  border: solid 10px #fff;
+}
+.page.senators {
+  text-align: left;
 }
 .senators .list {
   overflow: hidden;
@@ -314,15 +318,19 @@ article.senator label {
 }
 article.senator h2 {
   padding: 30px;
-  font-family: Shanti, sans-serif;
-  font-size: 1.8em;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
   font-weight: bold;
-  color: #707080;
+  text-align: center;
+  background: #222;
+  color: #ddd;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.20);
 }
 article.senator .section {
   padding: 20px;
   padding-left: 110px;
-  border-top: solid 1px #ddd;
+  border-top: solid 1px #e7e7e7;
   overflow: hidden;
 }
 article.senator .section > label {
@@ -341,7 +349,7 @@ article.senator li {
 }
 article.senator a,
 article.senator a:visited {
-  color: #383;
+  color: #4bd;
   text-decoration: none;
   display: block;
   padding: 1px;
