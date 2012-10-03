@@ -83,7 +83,7 @@ bq(en). "Hello! I'm Rico Sta. Cruz of Makati. I'm calling about the issue of _on
 
 A member of the senator's staff is going to answer your call. Be polite and don't be shy! They take these kind of calls often. Feel free to speak in either English or Tagalog.
 
-Ask who you can speak to about asking about the issue ond your concerns.
+Ask who you can speak to about asking about the issue and your concerns.
 </section>
 
 <section class='sub convo'>
