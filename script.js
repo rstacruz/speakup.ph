@@ -22,8 +22,11 @@
     } else if (m = val.match(/^https?:\/\/([^\/]+)/)) {
       // Website
       return "<a href='"+val+"' class='pre site'>"+m[1]+"</a>";
+    } else if (type === "Address") {
+      // Address
+      return "<span class='address'>"+val+"</span>";
     } else {
-      return "<span class='other'>"+val+"</span>";
+      return "<span class='other'>"+val+" <small>"+type+"</small></span>";
     }
   }
 
