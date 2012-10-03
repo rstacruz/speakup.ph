@@ -30,6 +30,7 @@ h2(headline). _0_ Understand the issue
 [bafox]http://www.reddit.com/r/technology/comments/10slkp/the_philippines_my_country_has_just_passed_a_law/c6gegmk
 [gn]https://www.google.com/search?hl=en&gl=ph&tbm=nws&q=cybercrime&oq=cybercrime
 [pifa]http://pifa.ph
+[ifph]http://internetfreedom.ph
 [reddit]http://www.reddit.com/r/technology/comments/10slkp/the_philippines_my_country_has_just_passed_a_law/c6gdi9p
 
 
