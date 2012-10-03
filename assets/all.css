@@ -461,31 +461,43 @@ article.senator ul {
 }
 article.senator li {
   margin: 0;
-  padding: 1px 0;
 }
 article.senator a,
 article.senator a:visited {
   color: #383;
   text-decoration: none;
+  display: block;
+  padding: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+}
+article.senator a:hover {
+  background: #f0f0f0;
 }
 article.senator .pre:before {
+  content: "";
   color: #ccc;
   margin-right: 10px;
   font-size: 0.9em;
   width: 16px;
   height: 16px;
   display: inline-block;
+  position: relative;
+  top: 2px;
 }
 article.senator .twitter:before {
-  content: "T:";
+  background: url("twitter.png");
 }
 article.senator .email:before {
-  content: "E:";
+  background: url("email.png");
 }
 article.senator .facebook:before {
-  content: "F:";
+  background: url("facebook.png");
 }
 article.senator .site:before {
-  content: "W:";
+  background: url("link.png");
+}
+article.senator .youtube:before {
+  background: url("youtube.png");
 }
 
