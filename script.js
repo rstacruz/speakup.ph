@@ -6,22 +6,22 @@
     var m;
     if (section === 'Info') {
       // External info
-      return "<a href='"+val+"' class='pre site'>"+type+"</a>";
+      return "<a href='"+val+"' class='pre site' target='_blank'>"+type+"</a>";
     } else if (m = val.match(/facebook\.com\/(?:pages\/)?(.*?)(?:\/[0-9]+)?$/)) {
       // Facebook
-      return "<a href='"+val+"' class='pre facebook'>"+m[1]+"</a>";
+      return "<a href='"+val+"' class='pre facebook' target='_blank'>"+m[1]+"</a>";
     } else if (m = val.match(/twitter\.com\/(.*)$/)) {
       // Twitter
-      return "<a href='"+val+"' class='pre twitter'>@"+m[1]+"</a>";
+      return "<a href='"+val+"' class='pre twitter' target='_blank'>@"+m[1]+"</a>";
     } else if (m = val.match(/youtube\.com\/(.*)$/)) {
       // Youtube
-      return "<a href='"+val+"' class='pre youtube'>@"+m[1]+"</a>";
+      return "<a href='"+val+"' class='pre youtube' target='_blank'>@"+m[1]+"</a>";
     } else if (m = val.match(/@[a-z\.]+$/)) {
       // Email
-      return "<a href='mailto:"+val+"' class='pre email'>"+val+"</a>";
+      return "<a href='mailto:"+val+"' class='pre email' target='_blank'>"+val+"</a>";
     } else if (m = val.match(/^https?:\/\/([^\/]+)/)) {
       // Website
-      return "<a href='"+val+"' class='pre site'>"+m[1]+"</a>";
+      return "<a href='"+val+"' class='pre site' target='_blank'>"+m[1]+"</a>";
     } else if (type === "Address") {
       // Address
       return "<span class='address'>"+val+"</span>";
