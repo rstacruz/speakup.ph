@@ -3,7 +3,7 @@
 
 h1(headline). We cannot be silenced.
 
-The Philippines is a nation of democracy, and no law can get in the way of power its the citizens. Here's how you can speak your mind and influence the decisions of our legislators.
+The Philippines is a nation of democracy, and no law can get in the way of the power of its citizens. Here's how you can speak your mind and influence the decisions of our legislators.
 
 p(action). "Be heard":#senators
 
