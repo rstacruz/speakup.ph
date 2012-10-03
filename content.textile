@@ -116,7 +116,7 @@ p(action). "See phone directory":#senators
 <div>
 
 <div class='map'>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=post+office+philippines&amp;aq=&amp;sll=13.175771,123.178711&amp;sspn=14.489407,22.82959&amp;ie=UTF8&amp;hq=post+office&amp;hnear=Philippines&amp;ll=13.175771,123.178711&amp;spn=10.335728,7.089032&amp;t=m&amp;output=embed"></iframe>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=post+office+philippines&amp;aq=&amp;sll=13.175771,123.178711&amp;sspn=14.489407,22.82959&amp;ie=UTF8&amp;hq=post+office&amp;hnear=Philippines&amp;ll=13.175771,123.178711&amp;spn=10.335728,7.089032&amp;t=m&amp;output=embed"></iframe>
 
 h2(headline). Write some letters
 

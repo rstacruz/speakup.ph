@@ -419,4 +419,49 @@ body {
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.20);
   box-shadow: 0 0 10px rgba(0,0,0,0.20);
 }
+.senators .list {
+  overflow: hidden;
+}
+article.senator {
+  background: #fff;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.20);
+  box-shadow: 0 0 5px rgba(0,0,0,0.20);
+  float: left;
+  width: 47%;
+  margin: 10px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article.senator h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #707080;
+}
+article.senator .section {
+  padding: 10px 0;
+  padding-left: 110px;
+  border-top: solid 1px #ccc;
+  overflow: hidden;
+}
+article.senator .section > label {
+  width: 80px;
+  float: left;
+  margin-left: -100px;
+  text-align: right;
+}
+article.senator ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  font-family: Shanti, sans-serif;
+}
+article.senator li {
+  margin: 0;
+  padding: 3px 0;
+  border-bottom: solid 1px #eee;
+}
 
