@@ -76,7 +76,7 @@ All senators have phone lines open to the public! Use them to speak up your conc
 <section class='sub convo'>
 h3. Introduce yourself.
 
-bq(tl). "Hello! Ako po si Rico Sta. Cruz ng Makati. Tumatawag po ako tungkol sa isyu ng _online libel at ang cybercrime bill_. Gusto ko po'ng malaman ang posisyon ni senador ukol dito, at magpahayag ng aking hikain."
+bq(tl). "Hello! Ako po si Rico Sta. Cruz ng Makati. Tumatawag po ako tungkol sa isyu ng _online libel at ang cybercrime bill_. Gusto ko po'ng malaman ang posisyon ni senador ukol dito, at magpahayag ng aking adhikain."
 
 bq(en). "Hello! I'm Rico Sta. Cruz of Makati. I'm calling about the issue of _online libel and the cybercrime bill_. I'd like to learn about the senator's position on this issue, and perhaps tell you about my stance on it for your consideration."
 
