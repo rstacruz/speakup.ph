@@ -6,6 +6,7 @@ headline-font = Montserrat, sans-serif
 voice-font = Shanti, sans-serif
 oswald-font = Oswald, sans-serif
 bright-orange = #c42
+cyanish = #4bd
 
 // ----------------------------------------------------------------------------
 
@@ -215,11 +216,15 @@ html, body
 .page.email
   &
     background: #d3d3d0 * 1.1
+    text-shadow: 0 1px 0 rgba(white, 0.5)
 
     // Flush the letter to the bottom
     padding-bottom: 0
 
     overflow: hidden
+
+  .headline
+    color: cyanish
 
   // The letter itself
   .letter
@@ -335,6 +340,7 @@ html, body
   h2.headline
     font-size: 26pt
     text-align: right
+    color: cyanish
 
   .map iframe
     float: right
@@ -374,8 +380,8 @@ article.senator
     font-size: 2em
     font-weight: bold
     text-align: center
-    background: #222
-    color: #ddd
+    background: #a0a0b0
+    color: #fff
     text-shadow: 0 1px 0 rgba(black, 0.2)
 
   .section

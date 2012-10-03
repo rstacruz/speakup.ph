@@ -198,8 +198,12 @@ body {
 }
 .page.email {
   background: #e8e8e5;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.50);
   padding-bottom: 0;
   overflow: hidden;
+}
+.page.email .headline {
+  color: #4bd;
 }
 .page.email .letter {
   width: 500px;
@@ -299,6 +303,7 @@ body {
 .page.write h2.headline {
   font-size: 26pt;
   text-align: right;
+  color: #4bd;
 }
 .page.write .map iframe {
   float: right;
@@ -339,8 +344,8 @@ article.senator h2 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-  background: #222;
-  color: #ddd;
+  background: #a0a0b0;
+  color: #fff;
   text-shadow: 0 1px 0 rgba(0,0,0,0.20);
 }
 article.senator .section {
