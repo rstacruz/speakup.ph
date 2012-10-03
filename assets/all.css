@@ -151,6 +151,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 .page {
   -webkit-box-sizing: border-box;
