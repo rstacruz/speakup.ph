@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+ License: none (public domain)
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #f0f0f0;
+  color: #444;
+}
+body,
+input,
+textarea,
+td,
+th {
+  font-family: Droid Sans, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  line-height: 1.5;
+}
+html,
+body {
+  height: 100%;
+}
+.page:nth-child(odd) {
+  background: #ddd;
+}
+.page {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 100px 0;
+  border-bottom: solid 1px #ddd;
+}
+.page > div {
+  width: 900px;
+  margin: 0 auto;
+}
+.page .headline {
+  font-size: 40pt;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  letter-spacing: -2px;
+  color: #707090;
+}
+.page .headline em {
+  display: none;
+}
+.page h3,
+.page blockquote,
+.page p,
+.page ul,
+.page li {
+  margin: 20px 0;
+}
+.page blockquote > p {
+  margin: 0;
+}
+.page.phone {
+  text-align: left;
+}
+.page.phone blockquote {
+  padding: 20px 30px 20px 20px;
+  background: #e6e6e6;
+  border-left: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  width: 43%;
+  float: left;
+  margin: 0 30px 20px 0;
+  font-family: Shanti, sans-serif;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #707080;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.60);
+}
+.page.phone blockquote.en {
+  display: none;
+}
+.page.phone h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.page.phone section.sub {
+  overflow: hidden;
+  padding: 20px 0;
+  border-top: solid 1px #ddd;
+}
+.page.phone .sub.follow-up {
+  text-align: center;
+}
+.page.phone .sub.follow-up h3 {
+  margin-bottom: -10px;
+}
+

@@ -1,0 +1,91 @@
+@import 'nib'
+
+// ----------------------------------------------------------------------------
+
+body
+  background: #f0f0f0
+  color: #444
+
+body, input, textarea, td, th
+  font-family: Droid Sans, sans-serif
+  font-weight: 400
+  font-size: 11pt
+  line-height: 1.5
+
+html, body
+  height: 100%
+
+// ----------------------------------------------------------------------------
+
+.page:nth-child(odd)
+  background: #ddd
+
+.page
+  box-sizing: border-box
+  padding: 100px 0
+  border-bottom: solid 1px #ddd
+
+  > div
+    width: 900px
+    margin: 0 auto
+
+  .headline
+    font-size: 40pt
+    text-align: center
+    font-family: Montserrat, sans-serif
+    font-weight: 400
+    letter-spacing: -2px
+    color: #707090
+
+    em
+      display: none
+
+  h3, blockquote, p, ul, li
+    margin: 20px 0
+
+  blockquote > p
+    margin: 0
+
+// ----------------------------------------------------------------------------
+
+.page.phone
+  text-align: left
+
+  blockquote
+    padding: 20px 30px 20px 20px
+    background: #e6e6e6
+    border-left: solid 1px #ccc
+    border-top: solid 1px #ccc
+
+    width: 43%
+    float: left
+    margin: 0 30px 20px 0
+
+    font-family: Shanti, sans-serif
+
+    border-radius: 3px
+
+    color: #707080
+    text-shadow: 0 1px 0 rgba(white, 0.6)
+
+  blockquote.en
+    display: none
+
+  // Section headings
+  h3
+    font-size: 1.2em
+    font-weight: bold
+
+  // Section
+  section.sub
+    overflow: hidden
+    padding: 20px 0
+    border-top: solid 1px #ddd
+
+  // Follow up section
+  .sub.follow-up
+    text-align: center
+
+    h3
+      margin-bottom: -10px
+
