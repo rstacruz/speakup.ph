@@ -146,7 +146,7 @@ body {
   height: 100%;
 }
 .page:nth-child(odd) {
-  background: #d3d3d0;
+  background: #e8e8e5;
 }
 .page {
   -webkit-box-sizing: border-box;
@@ -180,15 +180,58 @@ body {
 .page blockquote > p {
   margin: 0;
 }
-.page.email {
-  padding-bottom: 0;
-  overflow: hidden;
-}
-.page.email .info {
+.page .info {
   text-align: center;
   width: 600px;
   margin: 0 auto;
-  font-size: 1.1em;
+  font-size: 1.2em;
+}
+.page.title {
+  background: #202030;
+  color: #aaa;
+}
+.page.title > div {
+  width: 600px;
+}
+.page.title h1.headline {
+  color: #fff;
+  font-size: 42pt;
+  line-height: 1.2;
+}
+.page.title p {
+  font-size: 1.2em;
+  text-align: center;
+}
+.page.understand a {
+  color: #888;
+  text-decoration: none;
+}
+.page.understand li > a:first-child {
+  font-weight: bold;
+  color: #222;
+  display: block;
+  font-family: Georgia, serif;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.page.understand ul {
+  margin-top: 40px;
+  overflow: hidden;
+}
+.page.understand li {
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  float: left;
+  width: 32%;
+  padding: 0 15px;
+}
+.page.email {
+  padding-bottom: 0;
+  overflow: hidden;
 }
 .page.email .letter {
   width: 500px;
@@ -208,7 +251,7 @@ body {
 .page.phone {
   text-align: left;
 }
-.page.phone h2.headline {
+.page.phone .info {
   padding-bottom: 40px;
 }
 .page.phone blockquote {

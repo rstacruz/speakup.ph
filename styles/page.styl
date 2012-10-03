@@ -1,5 +1,7 @@
 @import 'nib'
 
+serif-font = Georgia, serif
+
 // ----------------------------------------------------------------------------
 
 body
@@ -18,7 +20,7 @@ html, body
 // ----------------------------------------------------------------------------
 
 .page:nth-child(odd)
-  background: #d3d3d0
+  background: #d3d3d0 * 1.1
 
 .page
   box-sizing: border-box
@@ -46,6 +48,63 @@ html, body
   blockquote > p
     margin: 0
 
+  .info
+    text-align: center
+    width: 600px
+    margin: 0 auto
+    font-size: 1.2em
+
+// ----------------------------------------------------------------------------
+
+.page.title
+  &
+    background: #202030
+    color: #aaa
+
+  > div
+    width: 600px
+
+  h1.headline
+    color: white
+    font-size: 42pt
+    line-height: 1.2
+
+  p
+    font-size: 1.2em
+    text-align: center
+
+// ----------------------------------------------------------------------------
+
+.page.understand
+
+  a
+    color: #888
+    text-decoration: none
+
+  li > a:first-child
+    font-weight: bold
+    color: #222
+    display: block
+
+    font-family: serif-font
+    padding-bottom: 5px
+    margin-bottom: 5px
+
+  ul
+    margin-top: 40px
+    overflow: hidden
+
+  li
+    margin-top: 20px
+    box-sizing: border-box
+    display: block
+
+    text-align: center
+
+    float: left
+    width: 32%
+    padding: 0 15px
+
 // ----------------------------------------------------------------------------
 
 .page.email
@@ -54,12 +113,6 @@ html, body
     padding-bottom: 0
 
     overflow: hidden
-
-  .info
-    text-align: center
-    width: 600px
-    margin: 0 auto
-    font-size: 1.1em
 
   // The letter itself
   .letter
@@ -84,7 +137,7 @@ html, body
 .page.phone
   text-align: left
 
-  h2.headline
+  .info
     padding-bottom: 40px
 
   blockquote
