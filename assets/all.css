@@ -130,7 +130,7 @@ table {
 body {
   background: #f6f6f4;
   color: #505050;
-  min-width: 900px;
+  min-width: 960px;
 }
 body,
 input,
@@ -292,7 +292,10 @@ body {
   color: #fff;
   display: block;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -2px;
+  margin-bottom: 3px;
 }
 .page.understand li > a:first-child {
   font-weight: bold;
@@ -300,7 +303,7 @@ body {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   margin-bottom: 5px;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: #c42;
 }
 .page.understand li > a:first-child:hover {
