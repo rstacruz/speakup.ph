@@ -14,11 +14,12 @@ The Philippines is a democracy, and no law can get in the way of power of the ci
 h2(headline). _0_ Understand the issue
 
 <div class='info'>
-Here are some links to get you started on some research.
+*Read up!* Here are some links to get you started on some research online.
 </div>
 
  * "The Cybercrime Bill":ra10175-docs This is the contents of the cybercrime bill (reformatted by "bafox of reddit":bafox). This is also available from the gov.ph site "here":ra10175-original.
  * "Google News":gn compiles the list of cybercrime-related news articles as they happen.
+ * "Internetfreedom.ph":ifph has a list of senators who have voiced their intentions to amend the law, and those who haven't yet.
 
 [ra10175-docs]https://docs.google.com/document/pub?id=1b_LlLSY9u-HsGd0eqijq0fSx_THIcbSBucOSxFmCdow
 [ra10175-original]http://www.gov.ph/2012/09/12/republic-act-no-10175/
@@ -30,13 +31,13 @@ Here are some links to get you started on some research.
 </div>
 </section>
 
-<section class='page email'>
+<section class='page email' id='email'>
 <div>
 
 h2(headline). _1_ Send an email
 
 <div class='info'>
-Pour your thoughts out into a letter. Be as emotional as you need to be, but don't make any personal attacks. Here's a sample to get you started. Make sure to change it up to add your thoughts in!
+Pour your thoughts out into a letter. Be as emotional as you need to be, but don't make any personal attacks. Here's a template to get you started. Make sure to change it up to add your thoughts in!
 </div>
 
 <div class='letter'>
@@ -54,7 +55,7 @@ _Rico Sta. Cruz_
 
 </div>
 </section>
-<section class='page phone'>
+<section class='page phone' id='phone'>
 <div>
 
 h2(headline). _2_ Phone in your concerns
@@ -103,3 +104,24 @@ If you call, send an email a few days later as well just to be sure that your ca
 
 </div>
 </section>
+
+<section class='page write'>
+<div>
+
+<div class='map'>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=post+office+philippines&amp;aq=&amp;sll=13.175771,123.178711&amp;sspn=14.489407,22.82959&amp;ie=UTF8&amp;hq=post+office&amp;hnear=Philippines&amp;ll=13.175771,123.178711&amp;spn=10.335728,7.089032&amp;t=m&amp;output=embed"></iframe>
+
+h2(headline). Write some letters
+
+The senator's offices have addresses you can write to. This can be more effective than an email.
+
+To send mail, simply visit your nearest post office. You will need to buy a postage stamp (very cheap) to attach to your envelope.
+
+p(action). "Find post offices":offices
+
+[offices]https://maps.google.com/maps?q=post+office+philippines&hl=en&ll=12.790375,121.68457&spn=14.511674,22.82959&sll=13.175771,123.178711&sspn=14.489407,22.82959&hq=post+office&hnear=Philippines&t=m&z=6
+</div>
+
+</div>
+</section>
+

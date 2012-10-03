@@ -1,6 +1,9 @@
 @import 'nib'
 
 serif-font = Georgia, serif
+default-font = Palatino, serif
+headline-font = Montserrat, sans-serif
+voice-font = Shanti, sans-serif
 
 // ----------------------------------------------------------------------------
 
@@ -9,7 +12,7 @@ body
   color: #505050
 
 body, input, textarea, td, th
-  font-family: Droid Sans, sans-serif
+  font-family: default-font
   font-weight: 400
   font-size: 11pt
   line-height: 1.5
@@ -18,9 +21,6 @@ html, body
   height: 100%
 
 // ----------------------------------------------------------------------------
-
-.page:nth-child(odd)
-  background: #d3d3d0 * 1.1
 
 .page
   box-sizing: border-box
@@ -34,7 +34,7 @@ html, body
   .headline
     font-size: 32pt
     text-align: center
-    font-family: Montserrat, sans-serif
+    font-family: headline-font
     font-weight: 400
     letter-spacing: -2px
     color: #707090
@@ -56,43 +56,92 @@ html, body
 
 // ----------------------------------------------------------------------------
 
+.action a
+  color: white
+  background: #333
+  text-decoration: none
+  padding: 5px 30px
+  display: inline-block
+
+  font-family: oswald, sans-serif
+  text-transform: uppercase
+  font-size: 12pt
+
+  border-radius: 2px
+
+// ----------------------------------------------------------------------------
+
 .page.title
   &
-    background: #202030
+    background: #404040
     color: #aaa
+    border-bottom: 0
+    padding: 200px 0
 
   > div
-    width: 600px
+    width: 700px
+    overflow: hidden
+
+  h1.headline, p
+    float: left
+    width: 50%
+    box-sizing: border-box
 
   h1.headline
     color: white
-    font-size: 42pt
+    font-size: 36pt
     line-height: 1.2
 
+    padding-right: 20px
+    padding-top: 11px
+
+    text-align: right
+
   p
+    padding-left: 20px
     font-size: 1.2em
-    text-align: center
 
 // ----------------------------------------------------------------------------
 
 .page.understand
+  &
+    background: #202020
+    color: #aaa
+
+  .headline
+    font-size: 20pt
+    color: #ddd
+    display: none
 
   a
     color: #888
     text-decoration: none
 
+  .info
+    font-size: 1.9em
+    line-height: 1.3
+
+  .info strong
+    color: #fff
+    display: block
+    font-weight: bold
+    font-size: 1.2em
+
   li > a:first-child
     font-weight: bold
-    color: #222
+    color: #eee
     display: block
 
     font-family: serif-font
-    padding-bottom: 5px
-    margin-bottom: 5px
+    padding-bottom: 10px
+    margin-bottom: 10px
+
+    font-size: 1.1em
 
   ul
     margin-top: 40px
     overflow: hidden
+    font-size: 0.9em
 
   li
     margin-top: 20px
@@ -102,13 +151,15 @@ html, body
     text-align: center
 
     float: left
-    width: 32%
-    padding: 0 15px
+    width: 33%
+    padding: 0 25px
 
 // ----------------------------------------------------------------------------
 
 .page.email
   &
+    background: #d3d3d0 * 1.1
+
     // Flush the letter to the bottom
     padding-bottom: 0
 
@@ -123,14 +174,14 @@ html, body
     background: white
     box-shadow: 0 0 10px rgba(black, 0.2), 10px 5px 0 -4px white, 10px 5px 10px -4px rgba(black, 0.1)
 
-    font-family: Shanti, sans-serif
+    font-family: voice-font
 
     color: #707080
     text-shadow: 0 1px 0 rgba(white, 0.1)
 
   .letter strong
     font-weight: bold
-    font-family: Droid Sans
+    font-family: default-font
 
 // ----------------------------------------------------------------------------
 
@@ -150,7 +201,7 @@ html, body
     float: left
     margin: 0 30px 20px 0
 
-    font-family: Shanti, sans-serif
+    font-family: voice-font
 
     border-radius: 3px
 
@@ -178,3 +229,22 @@ html, body
     h3
       margin-bottom: -10px
 
+// ----------------------------------------------------------------------------
+
+.page.write
+  &
+    background: #d3d3d0 * 1.1
+
+  .map
+    overflow: hidden
+    text-align: right
+    font-size: 1.1em
+
+  h2.headline
+    font-size: 26pt
+    text-align: right
+
+  .map iframe
+    float: right
+    margin-left: 50px
+    box-shadow: 0 0 10px rgba(black, 0.2)
