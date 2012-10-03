@@ -171,11 +171,14 @@ body {
   padding-bottom: 40px;
 }
 .page.phone blockquote {
-  padding: 20px 30px 20px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px 40px 20px 50px;
   background: #e6e6e6;
   border-left: solid 1px #ccc;
   border-top: solid 1px #ccc;
-  width: 43%;
+  width: 48%;
   float: left;
   margin: 0 30px 20px 0;
   font-family: Shanti, sans-serif;
@@ -183,6 +186,27 @@ body {
   border-radius: 3px;
   color: #707080;
   text-shadow: 0 1px 0 rgba(255,255,255,0.60);
+  position: relative;
+}
+.page.phone blockquote p:first-line {
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #383840;
+}
+.page.phone blockquote:before {
+  content: "\201c";
+  display: block;
+  font-size: 36pt;
+  font-family: Georgia, serif;
+  height: 20px;
+  line-height: 20px;
+  width: 30px;
+  text-align: left;
+  float: left;
+  margin: 10px 0 0 -30px;
+  opacity: 0.5 ;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50) ;
+  filter: alpha(opacity=50) ;
 }
 .page.phone blockquote.en {
   display: none;
