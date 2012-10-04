@@ -146,10 +146,19 @@
 <script id='senator-template' type='text/template'>
   <article class='senator'>
 
-    <h2><%= name %></h2>
+    <hgroup>
+      <h2><%= name %></h2>
+
+      <div class='avatar'>
+        <p>
+          <img src='<%= data.image %>' alt='<%= name %>' />
+        </p>
+      </div>
+    </hgroup>
+
     <div class='card'>
       <% $.each(data, function(section, infos) { %>
-        <% if (section !== 'structuredName') { %>
+        <% if ((section !== 'structuredName') && (section !== 'image')) { %>
           <div class='section section-<%= section.replace(/ /, '-').toLowerCase() %>'>
             <label><%= section %></label>
 

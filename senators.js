@@ -9,6 +9,7 @@ Addresses.load(
         "additionalName": "J.",
         "familyName": "Angara"
       },
+      "image": "http://speakup.ph/images/angara.jpg",
       "Online": {
         "Website": "http://www.edangara.com/",
         "Facebook": "https://www.facebook.com/edangara2",
@@ -37,6 +38,7 @@ Addresses.load(
         "additionalName": "P.",
         "familyName": "Arroyo"
       },
+      "image": "http://speakup.ph/images/arroyo.gif",
       "Online": {
         "Email": "office_sen_jokerarroyo@yahoo.com"
       },
@@ -64,6 +66,7 @@ Addresses.load(
         "givenName": "Alan Peter",
         "familyName": "Cayetano"
       },
+      "image": "http://speakup.ph/images/cayetano_a.jpg",
       "Online": {
         "Email": "alancayetano@yahoo.com",
         "Facebook": "https://www.facebook.com/apcayetano"
@@ -90,6 +93,7 @@ Addresses.load(
         "givenName": "Pilar Juliana \"Pia\"",
         "familyName": "Cayetano"
       },
+      "image": "http://speakup.ph/images/cayetano_p.jpg",
       "Online": {
         "Email": "pia@senatorpiacayetano.com",
         "Website": [
@@ -127,6 +131,7 @@ Addresses.load(
         "additionalName": "Magtunao",
         "familyName": "Drilon"
       },
+      "image": "http://speakup.ph/images/drilon.gif",
       "Online": {
         "Email": "fmdrilon@yahoo.com",
         "Website": "http://frankahan.com",
@@ -158,6 +163,7 @@ Addresses.load(
         "additionalName": "Pimentel",
         "familyName": "Ejercito, Jr."
       },
+      "image": "http://speakup.ph/images/estrada.gif",
       "Online": {
         "Email": [
           "senjinggoyestrada@senate.gov.ph",
@@ -192,6 +198,7 @@ Addresses.load(
         "additionalName": "Guevarra",
         "familyName": "Escudero"
       },
+      "image": "http://speakup.ph/images/escudero.jpg",
       "Online": {
         "Email": [
           "sen.escudero@gmail.com",
@@ -238,6 +245,7 @@ Addresses.load(
         "additionalName": "de Lara",
         "familyName": "Guingona III"
       },
+      "image": "http://speakup.ph/images/guingona.jpg",
       "Online": {
         "Email": [
           "senatorguingona@gmail.com",
@@ -273,6 +281,7 @@ Addresses.load(
         "additionalName": "Ballesteros",
         "familyName": "Honasan II"
       },
+      "image": "http://speakup.ph/images/honasan.jpg",
       "Online": {
         "Email": "gringobhonasan@gmail.com",
         "Website": "http://www.gringohonasan.ph",
@@ -299,6 +308,7 @@ Addresses.load(
         "additionalName": "Morena",
         "familyName": "Lacson, Sr."
       },
+      "image": "http://speakup.ph/images/lacson.gif",
       "Online": {
         "Email": "ospml@yahoo.com"
       },
@@ -324,6 +334,7 @@ Addresses.load(
         "additionalName": "Mercado",
         "familyName": "Lapid"
       },
+      "image": "http://speakup.ph/images/lapid.gif",
       "Online": {
         "Email": [
           "sen.litolapid@senate.gov.ph",
@@ -354,6 +365,7 @@ Addresses.load(
         "givenName": "Loren",
         "familyName": "Legarda"
       },
+      "image": "http://speakup.ph/images/legarda.jpg",
       "Online": {
         "Email": "loren@lorenlegarda.com.ph",
         "Website": "http://www.lorenlegarda.com.ph",
@@ -391,6 +403,7 @@ Addresses.load(
         "additionalName": "Romualdez",
         "familyName": "Marcos Jr."
       },
+      "image": "http://speakup.ph/images/marcos.jpg",
       "Online": {
         "Email": "inquiry.bbmoffice@gmail.com",
         "Website": "http://www.bongbongm.com",
@@ -419,6 +432,7 @@ Addresses.load(
         "additionalName": "de la Rama",
         "familyName": "Osmeña III"
       },
+      "image": "http://speakup.ph/images/osmena.gif",
       "Online": {
         "Email": "osmena111@yahoo.com"
       },
@@ -442,6 +456,7 @@ Addresses.load(
         "additionalName": "Nepumoceno",
         "familyName": "Pangilinan"
       },
+      "image": "http://speakup.ph/images/pangilinan.gif",
       "Online": {
         "Email": [
           "kilosko2004@yahoo.com",
@@ -477,6 +492,7 @@ Addresses.load(
         "additionalName": "de la Llama",
         "familyName": "Pimentel III"
       },
+      "image": "http://speakup.ph/images/pimentel.jpg",
       "Online": {
         "Email": "Kokopimentel@hotmail.com",
         "Facebook": "https://www.facebook.com/AttyKoko"
@@ -510,6 +526,7 @@ Addresses.load(
         "givenName": "Juanito",
         "familyName": "Ponce Enrile"
       },
+      "image": "http://speakup.ph/images/enrile.gif",
       "Online": {
         "Website": "http://www.jpenrile.com/",
         "Contact form": "http://www.jpenrile.com/contactjpe/contactjpe.asp"
@@ -536,6 +553,7 @@ Addresses.load(
         "additionalName": "Gonzalez",
         "familyName": "Recto"
       },
+      "image": "http://speakup.ph/images/recto.jpg",
       "Online": {
         "Email": "ralphgrecto@gmail.com",
         "Website": "http://www.recto.ph"
@@ -567,6 +585,7 @@ Addresses.load(
         "givenName": "Ramon \"Bong\"",
         "familyName": "Revilla, Jr."
       },
+      "image": "http://speakup.ph/images/revilla.jpg",
       "Online": {
         "Email": "senbongrevilla@senate.gov.ph",
         "Facebook": "https://www.facebook.com/pages/Senator-Ramon-Bong-Revilla-jr/149026598464828"
@@ -591,6 +610,7 @@ Addresses.load(
         "givenName": "Miriam",
         "familyName": "Defensor Santiago"
       },
+      "image": "http://speakup.ph/images/santiago.gif",
       "Online": {
         "Email": [
           "miriam@miriam.com.ph",
@@ -630,6 +650,7 @@ Addresses.load(
         "additionalName": "Castelo",
         "familyName": "Sotto III"
       },
+      "image": "http://speakup.ph/images/sotto.jpg",
       "Online": {
         "Website": "http://www.titosotto.com",
         "Facebook": "http://www.facebook.com/pages/TITO-SEN/277863879871"
@@ -655,6 +676,7 @@ Addresses.load(
         "additionalName": "Fuentes",
         "familyName": "Trillanes IV"
       },
+      "image": "http://speakup.ph/images/trillanes.jpg",
       "Info": {
         "Official bio": "http://www.senate.gov.ph/senators/sen_bio/trillanes_antonio_bio.asp",
         "Wiki page": "https://en.wikipedia.org/wiki/Antonio_Trillanes_IV"
@@ -676,6 +698,7 @@ Addresses.load(
         "additionalName": "Bamba",
         "familyName": "Villar, Jr."
       },
+      "image": "http://speakup.ph/images/villar.gif",
       "Online": {
         "Email": [
           "mb_villar@yahoo.com",

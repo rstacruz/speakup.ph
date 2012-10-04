@@ -468,15 +468,19 @@ article.senator label,
 article.senator ul {
   font-family: sans-serif;
 }
-article.senator h2 {
+article.senator hgroup {
   padding: 20px 30px;
+  padding-right: 140px;
+  position: relative;
+}
+article.senator h2 {
   font-family: Oswald, sans-serif;
   font-size: 2em;
+  line-height: 1.3;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   color: #707080;
 }
-article.senator h2,
 article.senator .section {
   -webkit-box-shadow: inset 0 -8px 6px -6px rgba(0,0,0,0.05);
   box-shadow: inset 0 -8px 6px -6px rgba(0,0,0,0.05);
@@ -501,6 +505,9 @@ article.senator .section > label {
   font-size: 0.9em;
   line-height: 1.4;
   color: #a0a0b0;
+}
+article.senator .section-online > label {
+  display: none;
 }
 article.senator ul {
   margin: 0;
@@ -563,5 +570,44 @@ article.senator .site:before {
 }
 article.senator .youtube:before {
   background: url("youtube.png");
+}
+.avatar {
+  position: relative;
+}
+.avatar p,
+.avatar img {
+  width: 110px;
+  overflow: hidden;
+  -webkit-border-radius: 55px;
+  border-radius: 55px;
+}
+.avatar p {
+  height: 110px;
+  margin: 0;
+  padding: 0;
+}
+.avatar p:after {
+  width: 112px;
+  height: 112px;
+  -webkit-border-radius: 56px;
+  border-radius: 56px;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: block;
+  content: "";
+  background: radial-gradient(45px 45px 45deg, circle cover, rgba(0,0,0,0.00) 50%, rgba(0,0,0,0.80));
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 4px #fff;
+  -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.20), 0 0 14px rgba(0,0,0,0.20);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.20), 0 0 14px rgba(0,0,0,0.20);
+}
+.senator .avatar {
+  position: absolute;
+  right: 20px;
+  bottom: -55px;
+  z-index: 5;
 }
 
