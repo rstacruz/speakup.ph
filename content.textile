@@ -1,3 +1,4 @@
+<section class='intro'>
 <section class='page title'>
 <div>
 
@@ -5,7 +6,7 @@ h1(headline). We cannot be silenced.
 
 The Philippines is a nation of democracy, and no law can get in the way of the power of its citizens. Here's how you can speak your mind and influence the decisions of our legislators.
 
-p(action). "Be heard":#senators
+p(action). <span class='inset'>"Be heard":#senators</span>
 
 </div>
 </section>
@@ -36,6 +37,7 @@ h2(headline). _0_ Understand the issue
 
 
 </div>
+</section>
 </section>
 
 <section class='page email' id='email'>
