@@ -1,0 +1,38 @@
+# [Speakup.ph](http://speakup.ph)
+
+The Philippines is a nation of democracy, and no law can get in the way of the
+power of its citizens. Here's how you can speak your mind and influence the
+decisions of our legislators.
+
+Development setup
+-----------------
+
+Some of these files are auto-generated. See `Makefile` for details.
+
+Install Ruby, install RedCloth (`gem install RedCloth`) for textile, install
+Stylus+Nib (`npm install -g stylus nib`) for CSS, then type `make start`.
+
+Attribution
+-----------
+
+ * Picons33 for twitter icon - http://picons.me
+ * Paul Robert Lloyd for the Facebook icon - http://paulrobertlloyd.com/
+ * Subtle patterns for the background - http://subtlepatterns.com/
+ * Gasyoun for link icon -
+ http://www.iconfinder.com/icondetails/16320/16/link_url_icon
+ * Senators list taken from https://github.com/rstacruz/philippine_senators --
+ scraped from various sources
+
+Acknowledgements
+----------------
+
+© 2012, Rico Sta. Cruz. Everything that is not listed in the above *Attribution*
+section, including (but not limited to) the text content, design work and source
+code, are released under the [MIT License].
+
+[MIT License]: http://www.opensource.org/licenses/mit-license.php.
+
+ * [My website](http://ricostacruz.com) (ricostacruz.com)
+ * [Nadarei, Inc.](http://nadarei.co) (nadarei.co)
+ * [Github](http://github.com/rstacruz) (@rstacruz)
+ * [Twitter](http://twitter.com/rstacruz) (@rstacruz)
