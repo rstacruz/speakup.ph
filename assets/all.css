@@ -137,7 +137,7 @@ input,
 textarea,
 td,
 th {
-  font-family: Palatino, serif;
+  font-family: Gentium Book Basic, Palatino, serif;
   font-weight: 400;
   font-size: 11pt;
   line-height: 1.5;
@@ -288,10 +288,10 @@ section.intro {
   font-size: 1.1em;
 }
 .page.title p.tagline:first-letter {
-  font-size: 3em;
+  font-size: 3.2em;
   display: inline-block;
   float: left;
-  line-height: 0.9em;
+  line-height: 0.8em;
   margin-right: 7px;
   font-style: normal;
   margin-top: 2px;
@@ -319,8 +319,11 @@ section.intro {
   display: none;
 }
 .page.understand a {
-  color: #888;
+  color: #666;
   text-decoration: none;
+}
+.page.understand a:hover {
+  color: #c42;
 }
 .page.understand .info {
   font-size: 1.9em;
@@ -341,7 +344,7 @@ section.intro {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   margin-bottom: 5px;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: #c42;
 }
 .page.understand li > a:first-child:hover {
@@ -350,7 +353,9 @@ section.intro {
 .page.understand ul {
   margin-top: 40px;
   overflow: hidden;
-  font-size: 0.9em;
+}
+.page.understand li:nth-child(4) {
+  clear: both;
 }
 .page.understand li {
   margin-top: 20px;
@@ -372,6 +377,10 @@ section.intro {
 .page.email .headline {
   color: #4bd;
 }
+.page.email .info {
+  margin-top: -10px;
+  font-family: Palatino, serif;
+}
 .page.email .letter {
   width: 500px;
   margin: 40px auto 0 auto;
@@ -385,7 +394,7 @@ section.intro {
 }
 .page.email .letter strong {
   font-weight: bold;
-  font-family: Palatino, serif;
+  font-family: Gentium Book Basic, Palatino, serif;
   font-size: 1.2em;
 }
 .page.email .letter .action {
@@ -396,6 +405,8 @@ section.intro {
   text-align: left;
 }
 .page.phone .info {
+  margin-top: -10px;
+  font-family: Palatino, serif;
   padding-bottom: 40px;
 }
 .page.phone blockquote {
@@ -425,7 +436,7 @@ section.intro {
   content: "\201c";
   display: block;
   font-size: 36pt;
-  font-family: Georgia, serif;
+  font-family: Gentium Book Basic, Palatino, serif;
   height: 20px;
   line-height: 20px;
   width: 30px;
@@ -441,7 +452,10 @@ section.intro {
 }
 .page.phone h3 {
   font-size: 1.2em;
+  margin: 0 0 -16px 0;
   font-weight: bold;
+  color: #222;
+  color: #c42;
 }
 .page.phone section.sub {
   overflow: hidden;

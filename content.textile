@@ -77,11 +77,11 @@ All senators have phone lines open to the public! Use them to speak up your conc
 
 
 <section class='sub convo'>
-h3. Introduce yourself.
-
 bq(tl). "Hello! Ako po si Rico Sta. Cruz ng Makati. Tumatawag po ako tungkol sa isyu ng _online libel at ang cybercrime bill_. Gusto ko po'ng malaman ang posisyon ni senador ukol dito, at magpahayag ng aking adhikain."
 
 bq(en). "Hello! I'm Rico Sta. Cruz of Makati. I'm calling about the issue of _online libel and the cybercrime bill_. I'd like to learn about the senator's position on this issue, and perhaps tell you about my stance on it for your consideration."
+
+h3. Introduce yourself.
 
 A member of the senator's staff is going to answer your call. Be polite and don't be shy! They take these kind of calls often. Feel free to speak in either English or Tagalog.
 
@@ -89,21 +89,21 @@ Ask who you can speak to about asking about the issue and your concerns.
 </section>
 
 <section class='sub convo'>
-h3. Understand the issue.
-
 bq(tl). "Ano po ang posisyon ni senador tungkol dito? Sya po ba ay su-suporta sa pag-apila ng batas na ito?"
 
 bq(en). "How does the senator feel about this issue? Will he/she be supporting the amendment of this law?"
+
+h3. Understand the issue.
 
 Ask about the senator's stance on the issue. It may be different from what you already know about.
 </section>
 
 <section class='sub convo'>
-h3. Speak your mind.
-
 bq(tl). "Sa tingin ko ay ang _online libel_ provision ng cybercrime bill ay makaka-sira ng demokrasya ng ating lipunan. Bilang isang botante, ako po ay natatakot para sa kinabukasan ng ating bayan. Gusto ko po sanang mahingi ang suporta ni senador sa pag apila ng batas na ito, para sa mga mamayanang tulad ko at para sa ating bayan."
 
 bq(en). "I think the _online libel_ provision on the cybercrime law jeopardizes the democracy of the country as a whole. As a voter, I fear for the future of our country. I urge the senator to support abolishing this provision from the law, for the sake of citizens like me and for our nation."
+
+h3. Speak your mind.
 
 Ask for the support of the senator to support your cause. Present your arguments rationally. Refrain from making personal attacks; instead, be rational and stress why this issue is important to you.
 </section>
