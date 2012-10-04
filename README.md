@@ -15,13 +15,13 @@ Stylus+Nib (`npm install -g stylus nib`) for CSS, then type `make start`.
 Attribution
 -----------
 
- * Picons33 for twitter icon - http://picons.me
- * Paul Robert Lloyd for the Facebook icon - http://paulrobertlloyd.com/
- * Subtle patterns for the background - http://subtlepatterns.com/
- * Gasyoun for link icon -
- http://www.iconfinder.com/icondetails/16320/16/link_url_icon
+ * Twitter icon - from Picons33 (http://picons.me)
+ * Facebook icon - Paul Robert Lloyd (http://paulrobertlloyd.com/)
+ * Background - Subtle patterns (http://subtlepatterns.com/)
+ * Link icon - Gasyoun 
+ (http://www.iconfinder.com/icondetails/16320/16/link_url_icon)
  * Senators list taken from https://github.com/rstacruz/philippine_senators --
- scraped from various sources
+ retrieved from various sources
 
 Acknowledgements
 ----------------
@@ -30,7 +30,7 @@ Acknowledgements
 section, including (but not limited to) the text content, design work and source
 code, are released under the [MIT License].
 
-[MIT License]: http://www.opensource.org/licenses/mit-license.php.
+[MIT License]: http://www.opensource.org/licenses/mit-license.php
 
  * [My website](http://ricostacruz.com) (ricostacruz.com)
  * [Nadarei, Inc.](http://nadarei.co) (nadarei.co)
