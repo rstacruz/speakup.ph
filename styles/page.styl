@@ -285,7 +285,7 @@ section.intro
     width: 500px
     margin: 40px auto 0 auto
 
-    padding: 40px 80px
+    padding: 60px 80px 40px 80px
     background-color: white
     background-image: linear-gradient(top, white, #fafafa 97%, #f0f0f0)
     box-shadow: 0 0 10px rgba(black, 0.2), 10px 5px 0 -4px white, 10px 5px 10px -4px rgba(black, 0.1)
@@ -295,8 +295,12 @@ section.intro
     color: #707080
     text-shadow: 0 1px 0 rgba(white, 0.1)
 
+    // Make it feel more... letter-like
+    -webkit-font-smoothing: antialiased
+
   .letter strong
     font-weight: bold
+    font-style: italic
     font-family: default-font
 
     font-size: 1.2em
@@ -372,12 +376,12 @@ section.intro
   section.sub
     overflow: hidden
     padding: 20px 0
-    border-top: solid 1px #ddd
 
   // Follow up section
   .sub.follow-up
     text-align: center
     font-size: 1.1em
+    padding-top: 40px
 
     h3
       font-size: 1.4em
