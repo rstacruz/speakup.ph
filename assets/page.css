@@ -258,12 +258,12 @@ section.intro {
 }
 .page.email {
   background-color: #e8e8e5;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfa), color-stop(0.97, #f3f3ef), color-stop(1, #e4e4e1));
-  background-image: -webkit-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
-  background-image: -moz-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
-  background-image: -o-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
-  background-image: -ms-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
-  background-image: linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfa), color-stop(0.98, #f3f3ef), color-stop(1.03, #e4e4e1));
+  background-image: -webkit-linear-gradient(top, #fdfdfa 0%, #f3f3ef 98%, #e4e4e1 103%);
+  background-image: -moz-linear-gradient(top, #fdfdfa 0%, #f3f3ef 98%, #e4e4e1 103%);
+  background-image: -o-linear-gradient(top, #fdfdfa 0%, #f3f3ef 98%, #e4e4e1 103%);
+  background-image: -ms-linear-gradient(top, #fdfdfa 0%, #f3f3ef 98%, #e4e4e1 103%);
+  background-image: linear-gradient(top, #fdfdfa 0%, #f3f3ef 98%, #e4e4e1 103%);
   text-shadow: 0 1px 0 rgba(255,255,255,0.50);
   padding-bottom: 0;
   overflow: hidden;
