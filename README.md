@@ -39,3 +39,4 @@ code, are released under the [MIT License].
  * [Nadarei, Inc.](http://nadarei.co) (nadarei.co)
  * [Github](http://github.com/rstacruz) (@rstacruz)
  * [Twitter](http://twitter.com/rstacruz) (@rstacruz)
+
