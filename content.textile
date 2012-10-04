@@ -91,7 +91,7 @@ Ask who you can speak to about asking about the issue and your concerns.
 <section class='sub convo'>
 h3. Understand the issue.
 
-bq(tl). "Ano po ang posisyon ni senador tungkol dito? Sya po ba ay su-su-porta sa pag-apila ng batas na ito?"
+bq(tl). "Ano po ang posisyon ni senador tungkol dito? Sya po ba ay su-suporta sa pag-apila ng batas na ito?"
 
 bq(en). "How does the senator feel about this issue? Will he/she be supporting the amendment of this law?"
 
