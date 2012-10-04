@@ -16,7 +16,8 @@ Attribution
 -----------
 
  * Twitter icon - from Picons33 (http://picons.me)
- * Facebook icon - Paul Robert Lloyd (http://paulrobertlloyd.com/)
+ * Facebook icon - David Ferreira 
+ (http://www.iconfinder.com/icondetails/57831/16/facebook_icon)
  * Email icon - Yusuke Kamiyamane 
  (http://www.iconfinder.com/icondetails/12116/16/email_envelope_letter_mail_message_icon)
  * Background - Subtle patterns (http://subtlepatterns.com/)
