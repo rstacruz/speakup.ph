@@ -339,7 +339,7 @@ section.intro {
   margin-bottom: 3px;
 }
 .page.understand li > a:first-child {
-  font-weight: bold;
+  font-weight: normal;
   display: block;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
@@ -528,7 +528,7 @@ article.senator h2 {
   font-family: Oswald, sans-serif;
   font-size: 2em;
   line-height: 1.3;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #707080;
 }
