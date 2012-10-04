@@ -372,7 +372,13 @@ section.intro {
   padding: 0 25px;
 }
 .page.email {
-  background: #e8e8e5;
+  background-color: #e8e8e5;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfa), color-stop(0.97, #f3f3ef), color-stop(1, #e4e4e1));
+  background-image: -webkit-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
+  background-image: -moz-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
+  background-image: -o-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
+  background-image: -ms-linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
+  background-image: linear-gradient(top, #fdfdfa 0%, #f3f3ef 97%, #e4e4e1 100%);
   text-shadow: 0 1px 0 rgba(255,255,255,0.50);
   padding-bottom: 0;
   overflow: hidden;
@@ -388,7 +394,13 @@ section.intro {
   width: 500px;
   margin: 40px auto 0 auto;
   padding: 40px 80px;
-  background: #fff;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.97, #fafafa), color-stop(1, #f0f0f0));
+  background-image: -webkit-linear-gradient(top, #fff 0%, #fafafa 97%, #f0f0f0 100%);
+  background-image: -moz-linear-gradient(top, #fff 0%, #fafafa 97%, #f0f0f0 100%);
+  background-image: -o-linear-gradient(top, #fff 0%, #fafafa 97%, #f0f0f0 100%);
+  background-image: -ms-linear-gradient(top, #fff 0%, #fafafa 97%, #f0f0f0 100%);
+  background-image: linear-gradient(top, #fff 0%, #fafafa 97%, #f0f0f0 100%);
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.20), 10px 5px 0 -4px #fff, 10px 5px 10px -4px rgba(0,0,0,0.10);
   box-shadow: 0 0 10px rgba(0,0,0,0.20), 10px 5px 0 -4px #fff, 10px 5px 10px -4px rgba(0,0,0,0.10);
   font-family: Shanti, sans-serif;
@@ -534,6 +546,8 @@ article.senator h2 {
   font-weight: normal;
   text-align: left;
   color: #707080;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 2px 0 rgba(112,112,128,0.20), 0 -1px 0 rgba(255,255,255,0.50);
 }
 article.senator .section {
   -webkit-box-shadow: inset 0 -8px 6px -6px rgba(0,0,0,0.05);

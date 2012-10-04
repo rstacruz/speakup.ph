@@ -262,7 +262,8 @@ section.intro
 
 .page.email
   &
-    background: #d3d3d0 * 1.1
+    background-color: #d3d3d0 * 1.1
+    background-image: linear-gradient(top, #d3d3d0 * 1.2, #d3d3d0 * 1.15 97%, #d3d3d0 * 1.08)
     text-shadow: 0 1px 0 rgba(white, 0.5)
 
     // Flush the letter to the bottom
@@ -283,7 +284,8 @@ section.intro
     margin: 40px auto 0 auto
 
     padding: 40px 80px
-    background: white
+    background-color: white
+    background-image: linear-gradient(top, white, #fafafa 97%, #f0f0f0)
     box-shadow: 0 0 10px rgba(black, 0.2), 10px 5px 0 -4px white, 10px 5px 10px -4px rgba(black, 0.1)
 
     font-family: voice-font
@@ -442,6 +444,9 @@ article.senator
     font-weight: normal
     text-align: left
     color: #707080
+
+    -webkit-font-smoothing: antialiased
+    text-shadow: 0 2px 0 rgba(#707080, 0.2), 0 -1px 0 rgba(white, 0.5)
 
   .section
     box-shadow: inset 0 -8px 6px -6px rgba(black, 0.05)
