@@ -436,6 +436,8 @@ section.intro {
   background: #e6e6e6;
   border-left: solid 1px #ccc;
   border-top: solid 1px #ccc;
+  -webkit-box-shadow: inset 4px 4px 6px -3px rgba(0,0,0,0.05);
+  box-shadow: inset 4px 4px 6px -3px rgba(0,0,0,0.05);
   width: 48%;
   float: left;
   margin: 0 30px 20px 0;
@@ -445,6 +447,17 @@ section.intro {
   color: #707080;
   text-shadow: 0 1px 0 rgba(255,255,255,0.60);
   position: relative;
+}
+.page.phone blockquote:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -20px;
+  top: 7px;
+  width: 0;
+  height: 0;
+  border: solid 10px transparent;
+  border-left-color: #e6e6e6;
 }
 .page.phone blockquote p:first-line {
   font-weight: bold;

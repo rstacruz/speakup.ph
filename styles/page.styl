@@ -327,6 +327,8 @@ section.intro
     border-left: solid 1px #ccc
     border-top: solid 1px #ccc
 
+    box-shadow: inset 4px 4px 6px -3px rgba(black, 0.05)
+
     width: 48%
     float: left
     margin: 0 30px 20px 0
@@ -340,11 +342,28 @@ section.intro
 
     position: relative
 
+  // Notch
+  blockquote:after
+    content: ''
+    display: block
+
+    position: absolute
+    right: -20px
+    top: 7px
+
+    width: 0
+    height: 0
+
+    border: solid 10px transparent
+    border-left-color: #e6e6e6
+
+
   blockquote p:first-line
     font-weight: bold
     letter-spacing: -1px
     color: #707080 * 0.5
 
+  // Quote
   blockquote:before
     content: '\201c'
     display: block
