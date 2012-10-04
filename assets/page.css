@@ -451,6 +451,7 @@ article.senator .youtube:before {
   overflow: hidden;
   -webkit-border-radius: 55px;
   border-radius: 55px;
+  background: #fff;
 }
 .avatar p {
   height: 110px;
