@@ -278,7 +278,7 @@ section.intro {
 .page.email .letter {
   width: 500px;
   margin: 40px auto 0 auto;
-  padding: 40px 80px;
+  padding: 60px 80px 40px 80px;
   background-color: #fff;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.97, #fafafa), color-stop(1, #f0f0f0));
   background-image: -webkit-linear-gradient(top, #fff 0%, #fafafa 97%, #f0f0f0 100%);
@@ -291,11 +291,21 @@ section.intro {
   font-family: Shanti, sans-serif;
   color: #707080;
   text-shadow: 0 1px 0 rgba(255,255,255,0.10);
+  -webkit-font-smoothing: antialiased;
 }
 .page.email .letter strong {
   font-weight: bold;
   font-family: Gentium Book Basic, Palatino, serif;
+  color: #656573;
   font-size: 1.2em;
+}
+.page.email .letter em {
+  font-style: italic;
+  font-family: Gentium Book Basic, Palatino, serif;
+  display: block;
+  padding-top: 4px;
+  font-size: 1.6em;
+  color: #a8a8c0;
 }
 .page.email .letter .action {
   margin-top: 60px;

@@ -52,14 +52,14 @@ Pour your thoughts out into a letter. Be as emotional as you need to be, but don
 <div class='letter'>
 *Dear Senator,*
 
-Great day! I'm writing to you about the recent issues about the _online libel_ provision of of the cybercrime law.
+Great day! I'm writing to you about the recent issues about the online libel provision of of the cybercrime law.
 
-Senator, I fear for the future of our country. I think the _online libel_ provision can jeopardize our democracy. I want to live in a country where the citizens are free to praise the politicians, or point out their flaws, without fear of their words being taken against them.
+Senator, I fear for the future of our country. I think the online libel provision can jeopardize our democracy. I want to live in a country where the citizens are free to praise the politicians, or point out their flaws, without fear of their words being taken against them.
 
 Please, I urge you to support abolishing this provision from the law, for the sake of citizens like me and for our nation.
 
 Yours truly,
-_Rico Sta. Cruz_
+_Your name here_
 
 p(action). "Send your own message":#senators
 </div>
