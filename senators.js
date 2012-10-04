@@ -677,6 +677,14 @@ Addresses.load(
         "familyName": "Trillanes IV"
       },
       "image": "http://speakup.ph/images/trillanes.jpg",
+      "Online": {
+        "Email": [
+          "senateoffice@trillanes.com.ph",
+          "senate.office.trillanes@gmail.com"
+        ],
+        "Website": "http://www.trillanes.com.ph",
+        "Facebook": "https://www.facebook.com/sonnytrillanes.official"
+      },
       "Info": {
         "Official bio": "http://www.senate.gov.ph/senators/sen_bio/trillanes_antonio_bio.asp",
         "Wiki page": "https://en.wikipedia.org/wiki/Antonio_Trillanes_IV"
