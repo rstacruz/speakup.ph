@@ -33,8 +33,8 @@ body {
 }
 .social-share .fb {
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 0;
+  left: 100px;
 }
 .page {
   -webkit-box-sizing: border-box;
