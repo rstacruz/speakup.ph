@@ -26,14 +26,25 @@ html, body
 
 // ----------------------------------------------------------------------------
 
-.main-nav
-
-  .fb
-    padding: 20px
+.social-share
+  &
     position: fixed
+    top: 20px
+    left: 20px
+    z-index: 10
+
+  .twitter
+    position: absolute
     top: 0
     left: 0
-    z-index: 10
+
+    a
+      visibility: hidden
+
+  .fb
+    position: absolute
+    top: 30px
+    left: 0
 
 // ----------------------------------------------------------------------------
 
@@ -285,7 +296,7 @@ section.intro
     width: 500px
     margin: 40px auto 0 auto
 
-    padding: 60px 80px 40px 80px
+    padding: 40px 80px
     background-color: white
     background-image: linear-gradient(top, white, #fafafa 97%, #f0f0f0)
     box-shadow: 0 0 10px rgba(black, 0.2), 10px 5px 0 -4px white, 10px 5px 10px -4px rgba(black, 0.1)
@@ -295,12 +306,8 @@ section.intro
     color: #707080
     text-shadow: 0 1px 0 rgba(white, 0.1)
 
-    // Make it feel more... letter-like
-    -webkit-font-smoothing: antialiased
-
   .letter strong
     font-weight: bold
-    font-style: italic
     font-family: default-font
 
     font-size: 1.2em
@@ -327,8 +334,6 @@ section.intro
     border-left: solid 1px #ccc
     border-top: solid 1px #ccc
 
-    box-shadow: inset 4px 4px 6px -3px rgba(black, 0.05)
-
     width: 48%
     float: left
     margin: 0 30px 20px 0
@@ -342,28 +347,11 @@ section.intro
 
     position: relative
 
-  // Notch
-  blockquote:after
-    content: ''
-    display: block
-
-    position: absolute
-    right: -20px
-    top: 7px
-
-    width: 0
-    height: 0
-
-    border: solid 10px transparent
-    border-left-color: #e6e6e6
-
-
   blockquote p:first-line
     font-weight: bold
     letter-spacing: -1px
     color: #707080 * 0.5
 
-  // Quote
   blockquote:before
     content: '\201c'
     display: block
@@ -395,12 +383,12 @@ section.intro
   section.sub
     overflow: hidden
     padding: 20px 0
+    border-top: solid 1px #ddd
 
   // Follow up section
   .sub.follow-up
     text-align: center
     font-size: 1.1em
-    padding-top: 40px
 
     h3
       font-size: 1.4em

@@ -17,12 +17,24 @@ html,
 body {
   height: 100%;
 }
-.main-nav .fb {
-  padding: 20px;
+.social-share {
   position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+.social-share .twitter {
+  position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+}
+.social-share .twitter a {
+  visibility: hidden;
+}
+.social-share .fb {
+  position: absolute;
+  top: 30px;
+  left: 0;
 }
 .page {
   -webkit-box-sizing: border-box;
@@ -266,7 +278,7 @@ section.intro {
 .page.email .letter {
   width: 500px;
   margin: 40px auto 0 auto;
-  padding: 60px 80px 40px 80px;
+  padding: 40px 80px;
   background-color: #fff;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.97, #fafafa), color-stop(1, #f0f0f0));
   background-image: -webkit-linear-gradient(top, #fff 0%, #fafafa 97%, #f0f0f0 100%);
@@ -279,11 +291,9 @@ section.intro {
   font-family: Shanti, sans-serif;
   color: #707080;
   text-shadow: 0 1px 0 rgba(255,255,255,0.10);
-  -webkit-font-smoothing: antialiased;
 }
 .page.email .letter strong {
   font-weight: bold;
-  font-style: italic;
   font-family: Gentium Book Basic, Palatino, serif;
   font-size: 1.2em;
 }
@@ -307,8 +317,6 @@ section.intro {
   background: #e6e6e6;
   border-left: solid 1px #ccc;
   border-top: solid 1px #ccc;
-  -webkit-box-shadow: inset 4px 4px 6px -3px rgba(0,0,0,0.05);
-  box-shadow: inset 4px 4px 6px -3px rgba(0,0,0,0.05);
   width: 48%;
   float: left;
   margin: 0 30px 20px 0;
@@ -318,17 +326,6 @@ section.intro {
   color: #707080;
   text-shadow: 0 1px 0 rgba(255,255,255,0.60);
   position: relative;
-}
-.page.phone blockquote:after {
-  content: "";
-  display: block;
-  position: absolute;
-  right: -20px;
-  top: 7px;
-  width: 0;
-  height: 0;
-  border: solid 10px transparent;
-  border-left-color: #e6e6e6;
 }
 .page.phone blockquote p:first-line {
   font-weight: bold;
@@ -363,11 +360,11 @@ section.intro {
 .page.phone section.sub {
   overflow: hidden;
   padding: 20px 0;
+  border-top: solid 1px #ddd;
 }
 .page.phone .sub.follow-up {
   text-align: center;
   font-size: 1.1em;
-  padding-top: 40px;
 }
 .page.phone .sub.follow-up h3 {
   font-size: 1.4em;
