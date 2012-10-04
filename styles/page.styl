@@ -154,6 +154,27 @@ section.intro
   p
     padding-left: 20px
     font-size: 1.2em
+    font-style: italic
+
+  p.tagline
+    overflow: hidden
+
+  p.tagline:first-line
+    color: #eee
+    font-size: 1.1em
+
+  // Dropcap <3
+  p.tagline:first-letter
+    font-size: 3em
+    display: inline-block
+    float: left
+    line-height: 0.9em
+    margin-right: 5px
+    font-style: normal
+    margin-top: 2px
+
+    // Compensate for T
+    margin-left: -8px
 
   p.action
     width: 100%
