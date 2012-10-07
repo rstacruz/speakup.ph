@@ -71,7 +71,11 @@
   <div class='list'></div>
 </section>
 
-<% str = %[
+<%# ---------------------------------------------------------------------------- %>
+<%# Textile content starts here. %>
+<%# ---------------------------------------------------------------------------- %>
+
+<%= RedCloth.new(%[
 <section class='intro'>
 <section class='page title'>
 <div>
@@ -107,8 +111,6 @@ h2(headline). _0_ Understand the issue
 [pifa]http://pifa.ph
 [ifph]http://internetfreedom.ph
 [reddit]http://www.reddit.com/r/technology/comments/10slkp/the_philippines_my_country_has_just_passed_a_law/c6gdi9p
-
-
 
 </div>
 </section>
@@ -212,9 +214,9 @@ p(action). "Find post offices":offices
 
 </div>
 </section>
-] %>
+]).to_html %>
 
-<%= RedCloth.new(str).to_html %>
+<%# ---------------------------------------------------------------------------- %>
 
 <script id='senator-template' type='text/template'>
   <article class='senator'>
