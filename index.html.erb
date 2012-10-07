@@ -1,3 +1,4 @@
+<% ver = Dir['**/*'].map { |f| File.mtime(f).to_i }.max # For cache busting %>
 <!DOCTYPE html>
 <!--
 
@@ -34,7 +35,7 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/all.css?51" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/all.css?<%= ver %>" type="text/css" media="screen" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Speak up and be heard!" />
     <meta property="og:image" content="http://speakup.ph/preview.jpg" />
@@ -263,7 +264,7 @@ p(action). "Find post offices":offices
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=169204529787544";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script src='script.js?46'></script>
-<script src='senators.js?46'></script>
+<script src='script.js?<%= ver %>'></script>
+<script src='senators.js?<%= ver %>'></script>
 </body>
 </html>
