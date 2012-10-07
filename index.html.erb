@@ -1,4 +1,3 @@
-<% ver = Dir['**/*'].map { |f| File.mtime(f).to_i }.max # For cache busting %>
 <!DOCTYPE html>
 <!--
 
@@ -27,6 +26,10 @@
   [MIT License]: http://www.opensource.org/licenses/mit-license.php
 
 -->
+
+<%# For cache busting: %>
+<% ver = Dir['**/*'].map { |f| File.mtime(f).to_i }.max %>
+
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8" />

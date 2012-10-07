@@ -7,10 +7,17 @@ decisions of our legislators.
 Development setup
 -----------------
 
-Some of these files are auto-generated. See `Makefile` for details.
+The files `index.html` and `assets/all.css` are auto-generated, don't edit them!
+See `Makefile` for details.
 
-Install Ruby, install RedCloth (`gem install RedCloth`) for textile, install
-Stylus+Nib (`npm install -g stylus nib`) for CSS, then type `make start`.
+You need:
+
+ * __Ruby__, for compiling ERB (http://ruby-lang.org)
+ * __NodeJS__, for Stylus and Nib (http://nodejs.org)
+ * __Stylus + Nib__, for compiling CSS (`npm install -g stylus nib`)
+ * __RedCloth__, for textile (`[sudo] gem install RedCloth`)
+
+Then type `make start` to start the auto-compiling while you edit.
 
 Attribution
 -----------
