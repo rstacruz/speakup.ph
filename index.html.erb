@@ -1,3 +1,73 @@
+<!DOCTYPE html>
+<!--
+
+  Source:
+  http://github.com/rstacruz/speakup.ph
+
+  Send all corrections to hi@ricostacruz.com, or
+  http://github.com/rstacruz/speakup.ph/issues
+
+  Attribution:
+
+   * Twitter icon - from Picons33 (http://picons.me)
+   * Facebook icon - David Ferreira (http://www.iconfinder.com/icondetails/57831/16/facebook_icon)
+   * Email icon - Yusuke Kamiyamane (http://www.iconfinder.com/icondetails/12116/16/email_envelope_letter_mail_message_icon)
+   * Background - Subtle patterns (http://subtlepatterns.com/)
+   * Link icon - Gasyoun (http://www.iconfinder.com/icondetails/16320/16/link_url_icon)
+   * Senators list taken from https://github.com/rstacruz/philippine_senators
+     (retrieved from various sources)
+
+  Acknowledgements:
+
+  © 2012, Rico Sta. Cruz. Everything that is not listed in the above *Attribution*
+  section, including (but not limited to) the text content, design work and source
+  code, are released under the [MIT License].
+
+  [MIT License]: http://www.opensource.org/licenses/mit-license.php
+
+-->
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8" />
+    <title>Stop Cyber Martial Law!</title>
+    <link href='http://fonts.googleapis.com/css?family=Shanti' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/all.css?51" type="text/css" media="screen" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Speak up and be heard!" />
+    <meta property="og:image" content="http://speakup.ph/preview.jpg" />
+    <meta property="og:url" content="http://speakup.ph/" />
+    <meta property="og:description" content="No law can get in the way of the power of its citizens. Speak your mind and influence the decisions of our legislators." />
+    <!--[if lt IE 9]><script src='http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js'></script><![endif]-->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35288129-1']);
+      if (window.location.host.indexOf('localhost') === -1) { _gaq.push(['_trackPageview']); }
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</head>
+<body>
+  <nav class='social-share'>
+    <div class='twitter'>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Speak up for the Philippines! #NoToCyberCrime" data-url="http://speakup.ph">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div class='fb'>
+      <div class="fb-like" data-href="http://speakup.ph" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+    </div>
+  </nav>
+
+<section class='page senators' id='senators'>
+  <div class='list'></div>
+</section>
+
+<% str = %[
 <section class='intro'>
 <section class='page title'>
 <div>
@@ -138,4 +208,62 @@ p(action). "Find post offices":offices
 
 </div>
 </section>
+] %>
 
+<%= RedCloth.new(str).to_html %>
+
+<script id='senator-template' type='text/template'>
+  <article class='senator'>
+
+    <hgroup>
+      <h2><%%= name %></h2>
+
+      <div class='avatar'>
+        <p>
+          <img src='<%%= data.image %>' alt='<%%= name %>' />
+        </p>
+      </div>
+    </hgroup>
+
+    <div class='card'>
+      <%% $.each(data, function(section, infos) { %>
+        <%% if ((section !== 'structuredName') && (section !== 'image')) { %>
+          <div class='section section-<%%= section.replace(/ /, '-').toLowerCase() %>'>
+            <label><%%= section %></label>
+
+            <ul>
+              <%% $.each(infos, function(key, value) { %>
+                <%% var values = (value.constructor === Array) ? value : [value]; %>
+
+                <%% $.each(values, function(i, val) { %>
+                  <li>
+                    <%%= formatValue(val, key, section) %>
+                  </li>
+                <%% }); %>
+
+              <%% }); %>
+            </ul>
+
+          </div>
+        <%% } %>
+      <%% }); %>
+    </div>
+  </article>
+
+</script>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.04/jquery.masonry.min.js'></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=169204529787544";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src='script.js?46'></script>
+<script src='senators.js?46'></script>
+</body>
+</html>

@@ -20,10 +20,7 @@ assets/all.css: \
 	$(COMBINE)
 
 index.html: \
-	src/index.start.html \
-	content.html \
-	src/index.end.html
-	cat $^ > $@
+	index.html.erb
 
 # ----------------------------------------------------------------------------
 
@@ -36,11 +33,9 @@ assets/%.css: styles/%.styl
 	stylus -u nib < $< > $@
 	@chmod a-w $@
 
-# Textile compiler via Ruby RedCloth
-%.html: %.textile
-	@rm -f $@
-	ruby -rRedCloth -e "puts RedCloth.new(STDIN.read).to_html" < $< > $@
-	@chmod a-w $@
+# ERB compiler
+%.html: %.html.erb
+	ruby -rerb -rRedCloth -e "puts ERB.new(STDIN.read).result(binding)" < $< > $@
 
 # Simple file watcher
 watch:
