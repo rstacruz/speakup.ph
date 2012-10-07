@@ -34,8 +34,11 @@ assets/%.css: styles/%.styl
 	@chmod a-w $@
 
 # ERB compiler
+# You may need to do '[sudo] gem install RedCloth'
 %.html: %.html.erb
+	@rm -f $@
 	ruby -rerb -rRedCloth -e "puts ERB.new(STDIN.read).result(binding)" < $< > $@
+	@chmod a-w $@
 
 # Simple file watcher
 watch:
@@ -43,7 +46,7 @@ watch:
 	while true; do make all | grep -v "Nothing to be done"; sleep 0.5; done
 
 clean:
-	rm -f assets/*
+	rm -f assets/*.css index.html
 
 port ?= 8000
 start:
