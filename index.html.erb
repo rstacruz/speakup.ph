@@ -26,12 +26,10 @@
   [MIT License]: http://www.opensource.org/licenses/mit-license.php
 
 -->
-
-<%# For cache busting: %>
-<% ver = Dir['**/*'].map { |f| File.mtime(f).to_i }.max %>
-
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
+    <%# For cache busting: %>
+    <% ver = Dir['**/*'].map { |f| File.mtime(f).to_i }.max %>
     <meta charset="UTF-8" />
     <title>Stop Cyber Martial Law!</title>
     <link href='http://fonts.googleapis.com/css?family=Shanti' rel='stylesheet' type='text/css'>
@@ -66,10 +64,6 @@
       <div class="fb-like" data-href="http://speakup.ph" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
     </div>
   </nav>
-
-<section class='page senators' id='senators'>
-  <div class='list'></div>
-</section>
 
 <%# ---------------------------------------------------------------------------- %>
 <%# Textile content starts here. %>
@@ -216,6 +210,10 @@ p(action). "Find post offices":offices
 </section>
 ]).to_html %>
 
+<section class='page senators' id='senators'>
+  <div class='list'></div>
+</section>
+
 <%# ---------------------------------------------------------------------------- %>
 
 <script id='senator-template' type='text/template'>
@@ -262,13 +260,7 @@ p(action). "Find post offices":offices
 <script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.04/jquery.masonry.min.js'></script>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=169204529787544";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=169204529787544";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
 <script src='script.js?<%= ver %>'></script>
 <script src='senators.js?<%= ver %>'></script>
 </body>

@@ -25,6 +25,7 @@ index.html: \
 # ----------------------------------------------------------------------------
 
 COMBINE = rm -f $@; cat $^ > $@; chmod a-w $@
+HTML5TIDY = tidy --new-blocklevel-tags section,article,aside,hgroup,header,footer,nav,figure,figcaption --new-inline-tags video,audio,embed,mark,progress,meter,time,ruby,rt,rp,canvas,command,details,datalist --new-empty-tags wbr,keygen
 
 # Stylus compiler
 assets/%.css: styles/%.styl
@@ -39,6 +40,7 @@ assets/%.css: styles/%.styl
 	@rm -f $@
 	ruby -rerb -rRedCloth -e "puts ERB.new(STDIN.read).result(binding)" < $< > $@
 	@chmod a-w $@
+
 
 # Simple file watcher
 watch:
