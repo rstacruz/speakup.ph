@@ -28,31 +28,30 @@
 -->
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-    <%# For cache busting: %>
-    <% ver = Dir['**/*'].map { |f| File.mtime(f).to_i }.max %>
-    <meta charset="UTF-8" />
-    <title>Stop Cyber Martial Law!</title>
-    <link href='http://fonts.googleapis.com/css?family=Shanti' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/all.css?<%= ver %>" type="text/css" media="screen" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Speak up and be heard!" />
-    <meta property="og:image" content="http://speakup.ph/preview.jpg" />
-    <meta property="og:url" content="http://speakup.ph/" />
-    <meta property="og:description" content="No law can get in the way of the power of its citizens. Speak your mind and influence the decisions of our legislators." />
-    <!--[if lt IE 9]><script src='http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js'></script><![endif]-->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-35288129-1']);
-      if (window.location.host.indexOf('localhost') === -1) { _gaq.push(['_trackPageview']); }
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+  <%# For cache busting: %>
+  <% ver = Dir['**/*'].map { |f| File.mtime(f).to_i }.max %>
+  <meta charset="UTF-8" />
+  <title>Stop Cyber Martial Law!</title>
+
+  <!-- CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Shanti' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/all.css?<%= ver %>" type="text/css" media="screen" />
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Speak up and be heard!" />
+  <meta property="og:image" content="http://speakup.ph/preview.jpg" />
+  <meta property="og:url" content="http://speakup.ph/" />
+  <meta property="og:description" content="No law can get in the way of the power of its citizens. Speak your mind and influence the decisions of our legislators." />
+
+  <!-- IE -->
+  <!--[if lt IE 9]><script src='http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js'></script><![endif]-->
+
+  <!-- Analytics -->
+  <script>if (window.location.host.indexOf('localhost')===-1){var _gaq=[['_setAccount','UA-35288129-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))}</script>
 </head>
 <body>
   <nav class='social-share'>
